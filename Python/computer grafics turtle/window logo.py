@@ -1,0 +1,78 @@
+import turtle
+sam = turtle.Turtle()
+sam.speed(10)
+
+sam.right(180)
+
+""" for i in range(8):
+    if i%2!=0:
+        sam.forward(120)
+        sam.right(90)
+        sam.forward(120)
+        sam.right(90)
+        sam.forward(120)
+        sam.right(90)
+        sam.forward(120)
+    else:
+        sam.penup()
+        sam.forward(10)
+        sam.pendown()
+ """
+sam.color("black","red")
+sam.begin_fill()
+sam.forward(120)
+sam.right(90)
+sam.forward(120)
+sam.right(90)
+sam.forward(120)
+sam.right(90)
+sam.forward(120)
+sam.end_fill()
+
+sam.penup()
+sam.forward(10)
+sam.pendown()
+
+sam.color("black","blue")
+sam.begin_fill()
+sam.forward(120)
+sam.right(90)
+sam.forward(120)
+sam.right(90)
+sam.forward(120)
+sam.right(90)
+sam.forward(120)
+sam.end_fill()
+
+sam.penup()
+sam.forward(10)
+sam.pendown()
+
+sam.color("black","yellow")
+sam.begin_fill()
+sam.forward(120)
+sam.right(90)
+sam.forward(120)
+sam.right(90)
+sam.forward(120)
+sam.right(90)
+sam.forward(120)
+sam.end_fill()
+
+sam.penup()
+sam.forward(10)
+sam.pendown()
+
+sam.color("black","green")
+sam.begin_fill()
+sam.forward(120)
+sam.right(90)
+sam.forward(120)
+sam.right(90)
+sam.forward(120)
+sam.right(90)
+sam.forward(120)
+sam.end_fill()
+
+sam.hideturtle()
+turtle.done()
