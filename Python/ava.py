@@ -9,7 +9,7 @@ import datetime
 import os
 import webbrowser
 import wikipedia
-import speech_recognition as sr
+import speechRecognition as sr
 import pyaudio
 
 engine = pyttsx3.init('sapi5')
