@@ -67,6 +67,16 @@ void display(node* head){
     }cout<<"NULL"<<endl;
 }
 
+int length(node* head){
+    node* temp=head;
+    int count=0;
+    while(temp!=NULL){
+        count++;
+        temp=temp->next;
+    }
+    return count;
+}
+
 bool search(node* head,int key){
     node* temp=head;
     while(temp!=NULL){
